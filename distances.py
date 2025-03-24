@@ -31,5 +31,5 @@ for dataset in datasets:
     for t in ["bin", "bin_prob", "multi", "multi_prob"]:
         row.append(gq_dist(glottolog_tree_path, os.path.join(results_dir, t)))
     gq_distances.append(row)
-tabulate(gq_distances, tablefmt="pipe", floatfmt=".3f", headers = ["dataset", "bin", "bin_prob", "multi", "multi_prob"])
+print(tabulate(gq_distances, tablefmt="pipe", floatfmt=".3f", headers = ["dataset", "bin", "bin_prob", "multi", "multi_prob"]))
 

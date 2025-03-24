@@ -1,6 +1,10 @@
-1. Prepare Tools 
-- Download the executable for [qdist](https://birc.au.dk/software/qdist) and place them in `bin/`
-- Download the executable for [RAxML-NG](https://github.com/amkozlov/raxml-ng) and place them in `bin/`
+#An Exemplary Workflow using Lexibench and RAxML-NG
+
+The Workflow is based on the data in [Lexibench](https://codeberg.org/lexibank/lexibench). [pylexibench](https://codeberg.org/lexibank/pylexibench) is used to extract character matrices and gold standard trees based on the classification in glottolog. Four different types of character matrices are used as an input for Maximum-Likelihood based Tree Searches with [RAxML-NG](https://github.com/amkozlov/raxml-ng). The inferred trees are compared the the corresponding gold standard trees by means of the Generalized Quartet (GQ) Distance.
+
+1. Preparation 
+- Download the executable for [qdist](https://birc.au.dk/software/qdist) and place it in `bin/`
+- Download the executable for [RAxML-NG](https://github.com/amkozlov/raxml-ng) and place it in `bin/`
 - Download the [Glottolog Repo](https://github.com/glottolog/glottolog)
 
 2. Set up the virtual environment
