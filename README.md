@@ -1,4 +1,4 @@
-#An Exemplary Workflow using Lexibench and RAxML-NG
+# An Exemplary Workflow using Lexibench and RAxML-NG
 
 The Workflow is based on the data in [Lexibench](https://codeberg.org/lexibank/lexibench). [pylexibench](https://codeberg.org/lexibank/pylexibench) is used to extract character matrices and gold standard trees based on the classification in glottolog. Four different types of character matrices are used as an input for Maximum-Likelihood based Tree Searches with [RAxML-NG](https://github.com/amkozlov/raxml-ng). The inferred trees are compared the the corresponding gold standard trees by means of the Generalized Quartet (GQ) Distance.
 
