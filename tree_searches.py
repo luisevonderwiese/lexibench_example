@@ -29,6 +29,6 @@ for dataset in datasets:
     run_inference(os.path.join(msa_dir, "bin.phy"), "BIN+G", os.path.join(results_dir, "bin"))
     run_inference(os.path.join(msa_dir, "bin.catg"), "BIN+G", os.path.join(results_dir, "bin_prob"), "--prob-msa on")
     x = list(metadata_df[metadata_df["Name"] == dataset]["cs_max"])[0]
-    run_inference(os.path.join(msa_dir, "multi.phy"), "MULTI" + str(x) + "MK+G", os.path.join(results_dir, "multi"))
-    run_inference(os.path.join(msa_dir, "multi.catg"), "MULTI" + str(x) + "MK+G", os.path.join(results_dir, "multi_prob"), "--prob-msa on")
+    run_inference(os.path.join(msa_dir, "multi.phy"), "MULTI" + str(x) + "_MK+G", os.path.join(results_dir, "multi"))
+    run_inference(os.path.join(msa_dir, "multi.catg"), "MULTI" + str(x) + "_MK+G", os.path.join(results_dir, "multi_prob"), "--prob-msa on")
 

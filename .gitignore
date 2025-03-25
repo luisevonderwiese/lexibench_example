@@ -4,6 +4,7 @@ data/lexibench/download
 data/lexibench/lingpy_wordlists
 data/lexibench/character_matrices/
 data/lexibench/glottolog_trees
+data/distances*
 bin/qdist
 bin/raxml-ng
 out.txt
