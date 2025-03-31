@@ -18,7 +18,7 @@ pip install pandas
 ```
 lexibench --repos data/lexibench download --upgrade
 lexibench --repos data/lexibench lingpy_wordlists
-lexibench --repos data/lexibench character_matrices --formats bin.phy multi.phy bin.catg multi.catg
+lexibench --repos data/lexibench character_matrices --formats bin.phy multi.phy bin.catg multi.catg --glottolog <your_path_to_glottlog>
 lexibench --repos data/lexibench glottolog_trees --glottolog <your_path_to_glottlog>
 
 ```
